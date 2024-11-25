@@ -1,22 +1,8 @@
 {
-  "id": "https://w3id.org/18c72",
+  "id": "https://w3id.org/dee37",
   "type": "Concept",
   "prefLabel": {
-    "de": "rqe"
-  },
-  "narrower": [
-    {
-      "id": "https://w3id.org/80683",
-      "prefLabel": {
-        "de": "rqwe"
-      }
-    }
-  ],
-  "broader": {
-    "id": "https://w3id.org/19a33",
-    "prefLabel": {
-      "en": "huiuh"
-    }
+    "en": "test"
   },
   "inScheme": [
     {
@@ -29,6 +15,14 @@
   "inSchemeAll": [
     {
       "id": "https://w3id.org/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://w3id.org/",
+      "title": {
+        "en": "Test"
+      }
     }
   ],
   "@context": {
