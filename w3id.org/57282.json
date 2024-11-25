@@ -1,9 +1,23 @@
 {
-  "id": "https://w3id.org/dee37",
+  "id": "https://w3id.org/57282",
   "type": "Concept",
   "prefLabel": {
-    "en": "Beer"
+    "en": "Wine"
   },
+  "narrower": [
+    {
+      "id": "https://w3id.org/8d7d7",
+      "prefLabel": {
+        "en": "White Wine"
+      }
+    },
+    {
+      "id": "https://w3id.org/cc676",
+      "prefLabel": {
+        "en": "Red Wine"
+      }
+    }
+  ],
   "inScheme": [
     {
       "id": "https://w3id.org/",

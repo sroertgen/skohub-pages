@@ -1,8 +1,14 @@
 {
-  "id": "https://w3id.org/dee37",
+  "id": "https://w3id.org/8d7d7",
   "type": "Concept",
   "prefLabel": {
-    "en": "Beer"
+    "en": "White Wine"
+  },
+  "broader": {
+    "id": "https://w3id.org/57282",
+    "prefLabel": {
+      "en": "Wine"
+    }
   },
   "inScheme": [
     {
@@ -15,14 +21,6 @@
   "inSchemeAll": [
     {
       "id": "https://w3id.org/"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://w3id.org/",
-      "title": {
-        "en": "Test"
-      }
     }
   ],
   "@context": {

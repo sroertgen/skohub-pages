@@ -1,8 +1,14 @@
 {
-  "id": "https://w3id.org/dee37",
+  "id": "https://w3id.org/6fd05",
   "type": "Concept",
   "prefLabel": {
-    "en": "Beer"
+    "en": "Raw Milk"
+  },
+  "broader": {
+    "id": "https://w3id.org/c2fc9",
+    "prefLabel": {
+      "en": "Milk"
+    }
   },
   "inScheme": [
     {
@@ -15,14 +21,6 @@
   "inSchemeAll": [
     {
       "id": "https://w3id.org/"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://w3id.org/",
-      "title": {
-        "en": "Test"
-      }
     }
   ],
   "@context": {

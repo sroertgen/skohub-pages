@@ -1,9 +1,17 @@
 {
-  "id": "https://w3id.org/dee37",
+  "id": "https://w3id.org/c2fc9",
   "type": "Concept",
   "prefLabel": {
-    "en": "Beer"
+    "en": "Milk"
   },
+  "narrower": [
+    {
+      "id": "https://w3id.org/6fd05",
+      "prefLabel": {
+        "en": "Raw Milk"
+      }
+    }
+  ],
   "inScheme": [
     {
       "id": "https://w3id.org/",
