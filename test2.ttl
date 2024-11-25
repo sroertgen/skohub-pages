@@ -1,0 +1,13 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix huhu: <https://w3id.org/>.
+
+huhu:
+    a skos:ConceptScheme;
+    dct:description "My wonderful vocabulary."@en;
+    dct:title "Test"@en;
+    vann:preferredNamespaceUri huhu:;
+    skos:hasTopConcept huhu:dee37 .
+huhu:dee37 a skos:Concept; skos:prefLabel "test"@en; skos:topConceptOf huhu: .
+
