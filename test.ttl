@@ -1,0 +1,42 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix huhu: <https://w3id.org/>.
+
+huhu:
+    a skos:ConceptScheme;
+    dct:description "My wonderful vocabulary."@en;
+    dct:title "Test"@en;
+    vann:preferredNamespaceUri huhu:;
+    skos:hasTopConcept
+    huhu:28b31, huhu:815be, huhu:8bc9e, huhu:8f504, huhu:fc54f.
+huhu:18c72
+    a skos:Concept;
+    skos:broader huhu:19a33;
+    skos:inScheme huhu:;
+    skos:narrower huhu:80683;
+    skos:prefLabel "rqe"@de.
+huhu:19a33
+    a skos:Concept;
+    skos:broader huhu:fc54f;
+    skos:inScheme huhu:;
+    skos:narrower huhu:18c72;
+    skos:prefLabel "huiuh"@en.
+huhu:28b31 a skos:Concept; skos:prefLabel "world"@en; skos:topConceptOf huhu: .
+
+huhu:80683
+    a skos:Concept;
+    skos:broader huhu:18c72;
+    skos:inScheme huhu:;
+    skos:prefLabel "rqwe"@de.
+huhu:815be a skos:Concept; skos:prefLabel "rqe"@de; skos:topConceptOf huhu: .
+
+huhu:8bc9e a skos:Concept; skos:prefLabel "erq"@de; skos:topConceptOf huhu: .
+
+huhu:8f504 a skos:Concept; skos:prefLabel "rq"@de; skos:topConceptOf huhu: .
+
+huhu:fc54f
+    a skos:Concept;
+    skos:narrower huhu:19a33;
+    skos:prefLabel "rew"@de;
+    skos:topConceptOf huhu: .
