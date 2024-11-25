@@ -1,13 +1,38 @@
 @prefix dct: <http://purl.org/dc/terms/>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix vann: <http://purl.org/vocab/vann/>.
-@prefix huhu: <https://w3id.org/>.
+@prefix hello: <https://w3id.org/>.
 
-huhu:
+hello:
     a skos:ConceptScheme;
     dct:description "My wonderful vocabulary."@en;
     dct:title "Test"@en;
-    vann:preferredNamespaceUri huhu:;
-    skos:hasTopConcept huhu:dee37 .
-huhu:dee37 a skos:Concept; skos:prefLabel "test"@en; skos:topConceptOf huhu: .
+    vann:preferredNamespaceUri hello:;
+    skos:hasTopConcept hello:57282, hello:c2fc9, hello:dee37 .
+hello:57282
+    a skos:Concept;
+    skos:narrower hello:8d7d7, hello:cc676;
+    skos:prefLabel "Wine"@en;
+    skos:topConceptOf hello: .
+hello:6fd05
+    a skos:Concept;
+    skos:broader hello:c2fc9;
+    skos:inScheme hello:;
+    skos:prefLabel "Raw Milk"@en.
+hello:8d7d7
+    a skos:Concept;
+    skos:broader hello:57282;
+    skos:inScheme hello:;
+    skos:prefLabel "White Wine"@en.
+hello:c2fc9
+    a skos:Concept;
+    skos:narrower hello:6fd05;
+    skos:prefLabel "Milk"@en;
+    skos:topConceptOf hello: .
+hello:cc676
+    a skos:Concept;
+    skos:broader hello:57282;
+    skos:inScheme hello:;
+    skos:prefLabel "Red Wine"@en.
+hello:dee37 a skos:Concept; skos:prefLabel "Beer"@en; skos:topConceptOf hello: .
 
